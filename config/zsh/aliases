@@ -1,0 +1,16 @@
+alias monhd="sudo ddcutil -d 1 setvcp 60 0x12"
+alias mondp="sudo ddcutil -d 1 setvcp 60 0x0F"
+
+alias sgpt='docker run --rm -e OPENAI_API_BASE=${OPENAI_API_BASE} -e OPENAI_API_KEY=${OPENROUTER_API_KEY} ghcr.io/tbckr/sgpt:latest txt '
+alias gpu='prime-run'
+alias git='nocorrect git'
+git config --global alias.a 'add'
+git config --global alias.ps 'push'
+git config --global alias.pl 'pull'
+git config --global alias.l 'log'
+git config --global alias.c 'commit -m'
+git config --global alias.s 'status'
+git config --global alias.co 'checkout'
+git config --global alias.b 'branch'
+
+alias piper='/usr/bin/python /usr/bin/piper'

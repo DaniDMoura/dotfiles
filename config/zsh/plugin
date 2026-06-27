@@ -1,0 +1,17 @@
+if [[ ! -f $HOME/.local/share/zinit/zinit.git/zinit.zsh ]]; then
+    mkdir -p "$HOME/.local/share/zinit"
+    git clone https://github.com/zdharma-continuum/zinit \
+        "$HOME/.local/share/zinit/zinit.git"
+fi
+
+source "$HOME/.local/share/zinit/zinit.git/zinit.zsh"
+
+autoload -Uz _zinit
+(( ${+_comps} )) && _comps[zinit]=_zinit
+
+# ---- Plugins ----
+zinit light zsh-users/zsh-autosuggestions
+zinit light agkozak/zsh-z
+zinit light zsh-users/zsh-completions
+zinit light Aloxaf/fzf-tab
+zinit light zdharma-continuum/fast-syntax-highlighting

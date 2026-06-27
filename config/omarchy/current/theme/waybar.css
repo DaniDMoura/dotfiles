@@ -1,0 +1,6 @@
+@define-color foreground #E3E1E4;
+@define-color background rgba(26, 24, 26, 0.85);
+
+* {
+    font-weight: 600;
+}

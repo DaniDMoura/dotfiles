@@ -1,0 +1,146 @@
+@import "night/mermaid.dark.css";
+@import "night/codeblock.dark.css";
+@import "night/sourcemode.dark.css";
+
+:root {
+    --bg-color: #2D2A2E;
+    --side-bar-bg-color: #1e1b1f;
+    --text-color: #E3E1E4;
+
+    --select-text-bg-color: #3e909b;
+
+    --item-hover-bg-color: #413e42;
+    --control-text-color: #848089;
+    --control-text-hover-color: #E3E1E4;
+    --window-border: 1px solid #413e42;
+
+    --active-file-bg-color: #413e42;
+    --active-file-border-color: #7ACCD7;
+
+    --primary-color: #7ACCD7;
+
+    --active-file-text-color: #E3E1E4;
+    --item-hover-text-color: #E3E1E4;
+
+    --rawblock-edit-panel-bd: #1e1b1f;
+
+    --search-select-bg-color: #3e909b;
+}
+
+html {
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+}
+
+html,
+body {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    background: #2D2A2E;
+    background: var(--bg-color);
+    fill: currentColor;
+    line-height: 1.625rem;
+}
+
+#write {
+    max-width: 914px;
+}
+
+@media only screen and (min-width: 1400px) {
+    #write {
+        max-width: 1024px;
+    }
+}
+
+@media only screen and (min-width: 1800px) {
+    #write {
+        max-width: 1200px;
+    }
+}
+
+html,
+body,
+button,
+input,
+select,
+textarea,
+div.code-tooltip-content {
+    color: #E3E1E4;
+    border-color: transparent;
+}
+
+div.code-tooltip,
+.md-hover-tip .md-arrow:after {
+    background: #1e1b1f;
+}
+
+.native-window #md-notification {
+    border: 1px solid #848089;
+}
+
+.popover.bottom > .arrow:after {
+    border-bottom-color: #1e1b1f;
+}
+
+html,
+body,
+button,
+input,
+select,
+textarea {
+    font-family: "Inter", "SF Pro", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+hr {
+    height: 2px;
+    border: 0;
+    margin: 24px 0 !important;
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "SF Pro", "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+    color: #E3E1E4;
+}
+
+/* Links */
+a {
+    color: #7ACCD7;
+}
+
+/* Code */
+code, pre, .md-fences {
+    font-family: "JetBrainsMono Nerd Font", "Fira Code", monospace;
+    background: #1e1b1f;
+}
+
+/* Inline code */
+code {
+    color: #78DCE8;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+/* Blockquotes */
+blockquote {
+    border-left: 4px solid #7ACCD7;
+    color: #848089;
+}
+
+/* Tables */
+table tr:nth-child(2n) {
+    background: #1e1b1f;
+}
+
+table th {
+    background: #413e42;
+}
+
+/* Scrollbars */
+::-webkit-scrollbar-thumb {
+    background: #413e42;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #848089;
+}

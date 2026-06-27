@@ -1,0 +1,48 @@
+# Pacotes essenciais para o dotfiles no Arch Linux
+# Comentários com '#' são ignorados
+
+# Shell
+zsh
+
+# Terminal
+ghostty
+alacritty
+
+# Editor
+neovim
+
+# Multiplexer
+tmux
+
+# Window Manager / Wayland
+hyprland
+waybar
+mako
+swayosd
+hypridle
+hyprlock
+hyprsunset
+
+# Launcher
+walker
+
+# Git
+git
+
+# Ferramentas úteis
+starship
+eza
+bat
+fzf
+ripgrep
+fd
+zoxide
+jq
+curl
+wget
+unzip
+tar
+
+# Fontes (comuns no omarchy)
+ttf-jetbrains-mono-nerd
+ttf-font-awesome

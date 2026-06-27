@@ -1,0 +1,10 @@
+# Ignore arquivos de backup gerados pelo symlink.sh
+*.bak.*
+
+# Ignore lockfiles temporários (exceto lazy-lock.json do nvim que é intencional)
+*.swp
+*.swo
+*~
+
+# Ignore diretórios de cache/cache do omarchy que possam aparecer
+.cache/
