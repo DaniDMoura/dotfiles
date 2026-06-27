@@ -8,3 +8,6 @@
 
 # Ignore diretórios de cache/cache do omarchy que possam aparecer
 .cache/
+
+# Ignore arquivos com variáveis de ambiente/sensíveis
+config/zsh/envs
