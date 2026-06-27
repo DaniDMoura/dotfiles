@@ -86,6 +86,11 @@ link_home() {
   if [[ -L "${CONFIG_DIR}/zsh/.zshrc" || -e "${CONFIG_DIR}/zsh/.zshrc" ]]; then
     safe_link "${CONFIG_DIR}/zsh/.zshrc" "${HOME}/.zshrc"
   fi
+
+  # .bashrc
+  if [[ -e "${DOTFILES_DIR}/home/.bashrc" ]]; then
+    safe_link "${DOTFILES_DIR}/home/.bashrc" "${HOME}/.bashrc"
+  fi
 }
 
 # ---------------------------------------------------------------------------
