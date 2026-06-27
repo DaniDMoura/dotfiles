@@ -44,5 +44,5 @@ unzip
 tar
 
 # Fontes (comuns no omarchy)
-ttf-jetbrains-mono-nerd
+ttf-victor-mono-nerd
 ttf-font-awesome
