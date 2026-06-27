@@ -1,41 +1,20 @@
 # Dotfiles
 
-Configurações pessoais para **Arch Linux** (nativo ou WSL) com **Omarchy**.
+Config pessoal para Omarchy, também compativel com WSL usando Arch Linux como distro. Inclui Zsh + Starship, Neovim (LazyVim-based), Ghostty, Alacritty, Tmux, Hyprland e Opencode.
 
-## Inclui
-
-- **Shell:** Zsh + Starship
-- **Editor:** Neovim (LazyVim-based)
-- **Terminal:** Ghostty, Alacritty
-- **Multiplexer:** Tmux
-- **WM:** Hyprland + Waybar
-- **Launcher:** Walker
-- **Tema Omarchy:** Liquid Glass (custom)
-
-## Instalação rápida
+## Instalação 
 
 ```bash
 git clone https://github.com/seu-usuario/dotfiles.git ~/.dotfiles
 ~/.dotfiles/scripts/install.sh
 ```
 
-## Uso diário
+## Sincronizar
 
 Depois de instalado, use o script de symlinks sempre que atualizar o repo:
 
 ```bash
 ~/.dotfiles/scripts/symlink.sh
-```
-
-## Estrutura
-
-```
-~/.dotfiles/
-├── config/          # Symlinks para ~/.config/
-├── home/            # Arquivos pontuais na ~
-├── scripts/         # Automação
-├── packages/        # Listas de pacotes
-└── README.md
 ```
 
 ## Atenção
